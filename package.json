@@ -1,0 +1,24 @@
+{
+  "name": "ahj_7_helpdesk_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "build": "node server.js"
+  },
+  "author": "Maksim-Gavr-04",
+  "license": "ISC",
+  "engines": {
+    "node": ">=16.0.0 <22.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "2.8.5",
+    "express": "^4.21.2",
+    "netlify-cli": "^19.0.2",
+    "pino": "8.17.2",
+    "pino-pretty": "10.3.1",
+    "serverless-http": "^3.2.0"
+  }
+}
